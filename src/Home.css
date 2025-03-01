@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main {
+    width: 100vw;
+    height: 100vh;
+    background-color: skyblue;
+    
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: yellowgreen;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul li {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product {
+    width: 200px;
+    background-color: #ffffffde;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .sizes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .sizes span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: lightgray;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .sizes span:hover {
+    background: black;
+    color: white;
+  }
+  
+  .colors {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .color1 {
+    background-color: red;
+  }
+  
+  .color2 {
+    background-color: blue;
+  }
+  
+  .color3 {
+    background-color: green;
+  }
+  .products{
+    margin-top: 30px;
+}
+.logo{
+  padding: 20px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-weight: 50px;
+  color:white;
+  
+   
+}
+.yuvaraj{
+  width: 70px;
+  height: 60px;
+  position: fixed;
+  border-radius: 150px;
+}

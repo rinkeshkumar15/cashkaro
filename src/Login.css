@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.container{
+background: url(sea.jpeg) no-repeat center/ cover;
+
+height: 100vh;
+
+display: grid;
+background-attachment: fixed;
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgba(2, 10, 9, 0.788);
+    height: 400px;
+    width: 450px;
+
+   margin: auto;
+    border-radius: 25px;
+    padding: 5%;
+}
+h1{
+    color: rgb(168, 177, 176);
+    padding: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button{
+    margin: 15px;
+    padding: 10px;
+    width: 25%;
+    border-radius: 30px;
+
+}
